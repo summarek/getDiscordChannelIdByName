@@ -1,6 +1,8 @@
 # getDiscordChannelIdByName
 A way to get an Id of channel only if know some part of it's name.
 
+Empty string "" is a wildcard!
+
 Example:
   console.log(getDiscordChannelIdByName("pogadanki", client));
   
